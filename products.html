@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров | BR Group - Korievs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-main">BR</span>
+                <span class="logo-sub">Group</span>
+                <span class="brand">Korievs</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="products.html" class="active">Каталог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li class="lang-switcher">
+                        <a href="#" class="active">RU</a> | <a href="#">EN</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="catalog-page">
+        <section class="catalog-header">
+            <div class="container">
+                <h1 class="page-title">Каталог ковриков</h1>
+                <p class="page-subtitle">Выберите идеальный коврик для вашей ванной комнаты</p>
+            </div>
+        </section>
+
+        <section class="catalog-filters">
+            <div class="container">
+                <div class="filter-section">
+                    <h3>Цвет</h3>
+                    <div class="color-filters">
+                        <button class="color-filter" data-color="all" style="background-color: #f8f9fa;">Все</button>
+                        <button class="color-filter" data-color="gray" style="background-color: #6c757d;"></button>
+                        <button class="color-filter" data-color="white"
+                            style="background-color: #ffffff; border: 1px solid #ddd;"></button>
+                        <button class="color-filter" data-color="black" style="background-color: #212529;"></button>
+                        <button class="color-filter" data-color="blue" style="background-color: #0d6efd;"></button>
+                        <button class="color-filter" data-color="green" style="background-color: #198754;"></button>
+                        <button class="color-filter" data-color="red" style="background-color: #dc3545;"></button>
+                        <button class="color-filter" data-color="beige" style="background-color: #e0c9a1;"></button>
+                        <button class="color-filter" data-color="brown" style="background-color: #6f4e37;"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-products">
+            <div class="container">
+                <div class="products-grid">
+                    <!-- Товары будут добавлены через JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Тот же футер, что и на главной странице -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
